@@ -1,4 +1,8 @@
- //inclusao de bibliotecas (deve ser incluida com const, pq nao ira mudar)
+//Este pequeno projeto em Node cria um servido, registra, altera, seleciona e deleta arquivos .txt.
+//Em especial, foi estudado o pacote query-string e o módulo file-system.
+//As informações e snippets de código foram encontradas no site do W3C Schools.
+
+//inclusao de bibliotecas (deve ser incluida com const, pq nao ira mudar)
 const http = require('http');
 const queryString = require('query-string'); //biblioteca para usar o parse
 const url = require('url'); //inclusao do pacote URL. o parametro (no caso, 'url') é pacote padrao do NODE 
